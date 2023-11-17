@@ -1750,7 +1750,6 @@
   <block id="b6b2c55f92e8e04471c740483e69a795" category="paragraph">Puede aumentar o reducir el tamaño de un almacén de datos NFS, pero en el caso de un almacén de datos VMFS, solo puede aumentar el tamaño. También se admite el redimensionamiento de los almacenes de datos con la opción de crecimiento y reducción automáticos de los almacenes de datos FlexGroup. Un FlexGroup que forma parte de un almacén de datos tradicional y un volumen FlexVol que forma parte de un almacén de datos vVols no se puede reducir por debajo del tamaño existente, pero que puede crecer como máximo del 120 %. Las Snapshot predeterminadas están habilitadas en estos volúmenes de FlexGroup y FlexVol.</block>
   <block id="1b837800f24f729eb8e73a102257c0bd" category="admonition">Si utiliza plataformas de almacenamiento de tipo cabina All SAN (ASA) con ONTAP 9.9.1 o posterior, solo podrá crear almacenes de datos vVols con un tamaño de vmdk superior a 16 TB.</block>
   <block id="0e6fc56cbe91d72cb03e33a904ae9ab3" category="list-text">En el panel de navegación, seleccione el centro de datos que contiene el almacén de datos.</block>
-  <block id="a15d1bf5dee929fddbf2e03ae0f830e9" category="list-text">Haga clic con el botón derecho en el almacén de datos y seleccione *Herramientas de ONTAP de NetApp* &gt; *asignar QoS*.</block>
   <block id="425e99780c82b74f333dd7da3068f492" category="list-text">En el cuadro de diálogo Cambiar tamaño, especifique un nuevo tamaño para el almacén de datos y, a continuación, haga clic en *Aceptar*.</block>
   <block id="29b33d6a4971ded7e90ffb22fa8e685d" category="paragraph">Puede ejecutar la opción *REDISCOVER ALL* en el menú sistemas de almacenamiento para actualizar manualmente el listado de almacenamiento en Storage Systems y el panel, o esperar la próxima actualización programada.</block>
   <block id="1d4b48c436900e10435d1573abe6912d" category="paragraph">Consulte la sección «"Configuración de roles y privilegios de usuario" en la _ONTAP® Tools for VMware® vSphere Deployment and Setup Guide for 9.7 Release_.</block>
@@ -1967,7 +1966,6 @@
   <block id="bbf1057ad175e1e1664e224351019ac9" category="sidebar">Utilidad de importación de NetApp: Vídeo</block>
   <block id="72393f9ef0b6b69526a30ac7ce5276bc" category="sidebar">Comunidad de NetApp: Herramientas de ONTAP</block>
   <block id="08420002b9383a71acf39a2e9f9d504a" category="sidebar">Herramientas de ONTAP para documentos de VMware vSphere 9.11</block>
-  <block id="ed9018b2e8611a3d2c03bb6a205b9715" category="sidebar">Herramientas de ONTAP para VMware vSphere</block>
   <block id="a7c1f19a0afcdde0b988ba73af98d366" category="sidebar">Configure las herramientas de ONTAP</block>
   <block id="d323122d1d04a198d3dd6ef4bae01b87" category="sidebar">Configure los ajustes de ESXi</block>
   <block id="16b28c768a3808adf59f65e0b99fedfe" category="sidebar">Configurar los sistemas operativos invitados</block>
@@ -2006,4 +2004,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="bdc5a4ba1115f3f724e1f81e7f41eeef" category="list-text">Haga clic con el botón derecho en el almacén de datos y seleccione *Herramientas de NetApp ONTAP* &gt; *Cambiar tamaño de almacén de datos que no sea vVols*.</block>
 </blocks>
