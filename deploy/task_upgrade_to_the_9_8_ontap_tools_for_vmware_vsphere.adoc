@@ -11,7 +11,7 @@ summary: Puede realizar una actualización in situ a la versión más reciente d
 
 
 [role="lead"]
-Puede realizar una actualización in situ a la versión más reciente de las herramientas de ONTAP desde su versión existente de 9.7P1 o posterior siguiendo las instrucciones proporcionadas aquí.
+Puede realizar una actualización en el lugar a la última versión de las herramientas de ONTAP desde su versión 9.10 o posterior existente siguiendo las instrucciones que se proporcionan aquí.
 
 *Lo que necesitará*
 
