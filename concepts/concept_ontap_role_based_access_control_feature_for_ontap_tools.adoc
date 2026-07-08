@@ -59,11 +59,9 @@ link:../configure/task_configure_user_role_and_privileges.html["Configure los ro
 
 * Herramienta de creación de usuarios de RBAC para ONTAP (si se usa ONTAP 9.6 o una versión anterior)
 +
-https://community.netapp.com/t5/Virtualization-Articles-and-Resources/RBAC-User-Creator-tool-for-VSC-VASA-Provider-and-Storage-Replication-Adapter-7-0/ta-p/133203["Herramienta RBAC User Creator para VSC, proveedor VASA y Storage Replication Adapter 7.0 para VMware vSphere"]
-
-
-
 Cada rol de ONTAP tiene asociado un nombre de usuario y una pareja de contraseñas que constituyen las credenciales del rol. Si no inicia sesión con estas credenciales, no podrá acceder a las operaciones de almacenamiento que están asociadas con el rol.
+
+
 
 Como medida de seguridad, los roles de ONTAP específicos de VSC se ordenan jerárquicamente. Esto significa que la primera función es la más restrictiva y que sólo tiene los privilegios asociados con el conjunto más básico de operaciones de almacenamiento VSC. El siguiente rol incluye sus propios privilegios y todos los privilegios asociados con el rol anterior. Cada puesto adicional resulta menos restrictivo en relación con las operaciones de almacenamiento admitidas.
 
